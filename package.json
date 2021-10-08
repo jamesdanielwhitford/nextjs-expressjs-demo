@@ -6,9 +6,9 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "export": "next export",
-    "dev": "next start", 
+    "dev": "node ssr-server.js", 
     "build": "next build",
-    "start": "node ssr-server.js"
+    "start": "next build && next export"
   },
   "keywords": [],
   "author": "",
