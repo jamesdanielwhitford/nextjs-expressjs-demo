@@ -1,4 +1,4 @@
-// import Head from 'next/head'
+import Head from 'next/head'
 
 const Index = () => (
     // <div>
@@ -6,10 +6,10 @@ const Index = () => (
     // </div>
 
     <div className="container">
-    {/* <Head>
+    <Head>
     <title>Create Next App</title>
     <link rel="icon" href="/favicon.ico" />
-    </Head> */}
+    </Head>
 
     <main>
     <h1 className="title">
